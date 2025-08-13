@@ -1,0 +1,50 @@
+What is LLD?
+Low Level Design (LLD) is the phase in software development where you define the structure and behavior of code components—how objects, classes, entities, and their relationships are organized so the application functions effectively. Unlike core DSA (Data Structures & Algorithms) problem-solving, LLD is about translating requirements into maintainable, scalable, and reusable code structures rather than writing algorithmic solutions.
+
+Key Focus: LLD uses object-oriented principles (classes, inheritance, encapsulation) to represent real-world entities, their relations, and enforce best practices like data security, scalability, and modularity.
+
+When is it done? Before actual coding, after HLD (High Level Design) and before you start integrating DSA-based algorithms for computations.
+
+What does LLD focus on?
+Scalability
+
+Determines how many users or how much load your app can handle efficiently.
+
+Maintainability
+
+Ensures your codebase is bug-free, easy to debug, and flexible for new features without breaking existing functionality.
+
+Reusability
+
+Code follows the DRY (Don't Repeat Yourself) principle.
+
+Modules or classes can be reused in different contexts or applications without modification.
+
+What is NOT LLD?
+HLD (High Level Design):
+
+Covers system architecture: tech stack choices, database type (SQL/NoSQL), server scaling, and cost optimization.
+
+DSA (Data Structures & Algorithms):
+
+Pure problem-solving using core algorithms and data structures.
+
+DSA is often used after the app's skeleton is ready.
+
+Relation with HLD and DSA
+Aspect	HLD	LLD	DSA
+Focus	System architecture	Code structure	Algorithmic problem-solving
+Example Questions	Which DB to use?	How to design classes?	How to sort efficiently?
+Analogy	Blueprint/foundation	Skeleton	Brain
+If DSA is the brain of an application, LLD is the skeleton—it gives shape and support to the code, allowing the brain (algorithms) to function properly.
+
+Essential Facts & Definitions
+Encapsulation: Bundling data and methods that operate on that data.
+
+Entities: Objects or things tracked by software (e.g., User, Product).
+
+Relations: How entities interact or depend on each other.
+
+Modularity: Breaking code into independent, manageable pieces.
+
+DRY Principle: “Don’t Repeat Yourself”—avoid duplication for maintainability.
